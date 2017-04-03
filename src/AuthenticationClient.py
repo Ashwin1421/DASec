@@ -9,7 +9,7 @@ from PyQt5 import QtGui,QtCore,uic
 from PyQt5.QtWidgets import (QApplication, QWidget, QPushButton, QGridLayout, QLabel, QLineEdit,)
 from PyQt5.QtGui import QIcon
 
-class AuthenticationClient(QtGui.QDialog):
+class AuthenticationClient(QtGui.QtDialog):
     def __init__(self):
         super().__init__()
         self.initGUI()
