@@ -3,8 +3,8 @@ import dropbox
 from dropbox import sharing
 
 # Get your app key and secret from the Dropbox developer website
-__app_key = 'knrwin4cg64mes5'
-__app_secret = 'ix5hyqwkiwmqyfa'
+__app_key = '' 
+__app_secret = ''
 __auth_flow = dropbox.client.DropboxOAuth2FlowNoRedirect(__app_key, __app_secret)
 
 
